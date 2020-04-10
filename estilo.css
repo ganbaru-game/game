@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+.color{
+    background:rgb(217, 240, 13);
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    
+}.color2{
+    background:rgb(13, 240, 172);
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    
+}
+#contenedor{
+    background: blue;
+   
+    height: 100%;
+    overflow: hidden;
+    
+}
