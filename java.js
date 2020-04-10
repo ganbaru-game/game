@@ -30,7 +30,7 @@ function cambiar(x,id)
     function crear(){
         var numero=prompt("indica cuantos elementos quieres, 20 max");
         ele=numero;
-       if(else>20){umero=prompt("indica cuantos elementos quieres, 20 max");}
+       if(else>20){numero=prompt("indica cuantos elementos quieres, 20 max");}
         for(i=0;i<ele;i++){
             var color=Math.random();
             if(color<0.5){
