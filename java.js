@@ -29,7 +29,10 @@ function cambiar(x,id)
 
     function crear(){
         var numero=prompt("indica cuantos elementos quieres");
-        ele=numero;
+        if(numero>20){
+            crear();
+        }else{
+           ele=numero;
         for(i=0;i<ele;i++){
             var color=Math.random();
             if(color<0.5){
@@ -43,7 +46,9 @@ function cambiar(x,id)
             ganar=ganar+1;
             contar=contar+1;
             document.getElementById("contenedor").appendChild(divs);
-    }
+    } 
+        }
+        
         }
         
         
