@@ -29,7 +29,7 @@ function cambiar(x,id)
 
     function crear(){
         var numero=prompt("indica cuantos elementos quieres, 20 max");
-       if(numero>20){numero=prompt("indica cuantos elementos quieres, 20 max");}else{
+       if(numero>20){numero=prompt("te he dicho maximo 20");}else{
         ele=numero;
        
         for(i=0;i<ele;i++){
