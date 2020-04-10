@@ -29,6 +29,7 @@ function cambiar(x,id)
 
     function crear(){
         var numero=prompt("indica cuantos elementos quieres, 20 max");
+       if(numero>20){numero=prompt("indica cuantos elementos quieres, 20 max");}else{
         ele=numero;
        
         for(i=0;i<ele;i++){
@@ -43,7 +44,7 @@ function cambiar(x,id)
             divs.setAttribute("onclick","cambiar(this)");
             ganar=ganar+1;
             contar=contar+1;
-            document.getElementById("contenedor").appendChild(divs);
+            document.getElementById("contenedor").appendChild(divs);}
     }
         }
         
