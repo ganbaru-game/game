@@ -5,14 +5,14 @@ html, body {
     }
 .color{
     background:rgb(217, 240, 13);
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 10%;
     border-radius: 50%;
     
 }.color2{
     background:rgb(13, 240, 172);
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 10%;
     border-radius: 50%;
     
 }

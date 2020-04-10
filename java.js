@@ -28,10 +28,8 @@ function cambiar(x,id)
 }
 
     function crear(){
-        var numero=prompt("indica cuantos elementos quieres, 20 max");
-       if(numero>20){alert("te he dicho maximo 20"); crear();}else{
+        var numero=prompt("indica cuantos elementos quieres");
         ele=numero;
-       
         for(i=0;i<ele;i++){
             var color=Math.random();
             if(color<0.5){
@@ -44,7 +42,7 @@ function cambiar(x,id)
             divs.setAttribute("onclick","cambiar(this)");
             ganar=ganar+1;
             contar=contar+1;
-            document.getElementById("contenedor").appendChild(divs);}
+            document.getElementById("contenedor").appendChild(divs);
     }
         }
         
